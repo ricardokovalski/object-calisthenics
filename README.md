@@ -1,2 +1,3 @@
-# object-calisthenics
-Repositório com as nove regras do Object Calisthenics.
+# Object Calisthenics em PHP
+
+Em breve as nove regras.
