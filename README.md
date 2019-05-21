@@ -1,3 +1,3 @@
 # Object Calisthenics em PHP
 
-Em breve as nove regras.
+* [Regra Número 1: Apenas um nível de identação por método](/role-01.md)
