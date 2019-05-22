@@ -6,3 +6,4 @@
 * [Regra Número 4: Envolva suas collections em classes](/role-04.md)
 * [Regra Número 5: Use apenas um ponto por linha](/role-05.md)
 * [Regra Número 6: Não abrevie](/role-06.md)
+* [Regra Número 7: Mantenha todas as suas classes pequenas](/role-07.md)
