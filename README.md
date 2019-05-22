@@ -4,3 +4,4 @@
 * [Regra Número 2: Não use Else](/role-02.md)
 * [Regra Número 3: Envolva seus tipos primitivos](/role-03.md)
 * [Regra Número 4: Envolva suas collections em classes](/role-04.md)
+* [Regra Número 5: Use apenas um ponto por linha](/role-05.md)
