@@ -8,3 +8,4 @@
 * [Regra Número 6: Não abrevie](/role-06.md)
 * [Regra Número 7: Mantenha todas as suas classes pequenas](/role-07.md)
 * [Regra Número 8: Não tenha mais que duas variáveis de instância em sua classe](/role-08.md)
+* [Regra Número 9: Não use Getters ou Setters](/role-09.md)
