@@ -37,6 +37,7 @@ public function show($slug)
 public function show($slug)
 {
     $lesson = $this->repository->findBySlug($slug);
+    
     if ($lesson) {
         $this->addThumbToImages($lesson->thumb_url);
         $trackTitle = ! $lesson->track ? '' : '['.$lesson->track->title.']';
@@ -44,6 +45,7 @@ public function show($slug)
         $this->seo()->setDescription($lesson->description);
         return $this->view('lessons::show')->with(compact('lesson'));
     }
+    
     return redirect(route('lesson.index'));
 }
 
@@ -52,6 +54,7 @@ protected function addThumbToImages($thumbURL)
     if (empty($thumbURL)) {
         return false;
     }
+    
     return $this->seo()->addImages($thumbURL);
 }
 ```
