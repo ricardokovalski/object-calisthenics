@@ -1,5 +1,7 @@
 # Não use Else
 
+A ideia principal é: Negue todo o possível em seu método antes. Dessa forma assumimos retornos antecipados e definimos um fluxo de trabalho padrão.
+
 ### Antes
 
 ```php
