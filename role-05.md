@@ -6,5 +6,5 @@ Esta regra é o exemplo da Lei de Deméter: você nunca deve usar mais de um ope
 
 Porém, existe uma exceção. Ela não se aplica a Fluent Interfaces e a qualquer coisa que se implemente o Chaining Pattern (muito usado por exemplo em Query Builders).
 
-> [!WARNING]
-> This is a WARNING
+!!! warning
+This is a warning.
