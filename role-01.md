@@ -62,3 +62,5 @@ protected function addThumbToImages($thumbURL)
     return $this->seo()->addImages($thumbURL);
 }
 ```
+
+[Anterior](/README.md) | [Próximo](/role-02.md)
