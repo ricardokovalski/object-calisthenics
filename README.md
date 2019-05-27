@@ -1,5 +1,9 @@
 # Object Calisthenics em PHP
 
+O Object Calisthenics é uma série de boas práticas e regras de programação criadas pela comunidade de desenvolvedores Java, contendo apenas 9 regras fáceis que mantém uma boa organização e clareza para a compreensão de um código.
+
+> **_ATENÇÃO:_**  Não se engane, pois algumas regras são bem difíceis e em alguns casos, uma regra depente de outra. Por isso, invista tempo em cada uma das regras e aplique-as com cautela.  
+
 * [Regra Número 1: Apenas um nível de identação por método](/role-01.md)
 * [Regra Número 2: Não use Else](/role-02.md)
 * [Regra Número 3: Envolva seus tipos primitivos](/role-03.md)
