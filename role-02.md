@@ -9,15 +9,15 @@ Negue todo o possível em seu método. Dessa forma assumimos retornos antecipado
 ```php
 <?php
 
-protected function indexAction()
+protected function index()
 {
     if ($this->security->isGranted('ADMIN')) {
-        $view = 'admin/index.html.twig';
+        $view = 'admin.pages.index';
     } else {
-        $view = 'home/access_denied.html.twig';
+        $view = 'home.pages.access_denied';
     }
     
-    return $this->render($view);
+    return view($view);
 }
 ```
 
@@ -26,13 +26,13 @@ protected function indexAction()
 ```php
 <?php
 
-protected function indexAction()
+protected function index()
 {
     if ($this->security->isGranted('ADMIN')) {
-        return $this->render('admin/index.html.twig');
+        return view('admin.pages.index');
     }
     
-    return $this->render('home/access_denied.html.twig');
+    return view('home.pages.access_denied');
 }
 ```
 
