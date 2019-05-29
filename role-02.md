@@ -2,7 +2,11 @@
 
 Por quê? Porque não serve para nada. Porque você não precisa e também nunca precisou.
 
-Negue todo o possível em seu método. Dessa forma assumimos retornos antecipados e definimos um fluxo de trabalho padrão.
+O conceito dessa regra é o early return, que emprega o uso do “retorne seu valor o quanto antes”.
+
+Sempre trabalhe com o return (ou continue), sabendo que ao cair em um return/continue o código abaixo não será executado o que ajuda na remoção do “else” ao inverter ou até modificar a validação antes usada.
+
+## Primeiro Exemplo
 
 ### Antes
 
@@ -33,6 +37,36 @@ protected function index()
     }
     
     return view('home.pages.access_denied');
+}
+```
+
+## Segundo exemplo
+
+### Antes
+
+```php
+<?php
+
+foreach ($members as $member) {
+    if ($member->paid()) {
+        $report[] = [$member->name => 'Paid'];
+    } else {
+        $report[] = [$member->name => 'Not Paid'];
+    }
+}
+```
+
+### Depois
+
+```php
+<?php
+
+foreach ($members as $member) {
+    if ($member->paid()) {
+        $report[] = [$member->name => 'Paid'];
+        continue;
+    }
+    $report[] = [$member->name => 'Not Paid'];
 }
 ```
 
