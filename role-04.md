@@ -5,3 +5,5 @@ A ideia inicial dessa regra diz que se você tiver um conjunto de elementos e qu
 Seguindo o comportamento dessa regra, você deixa os comportamentos relacionados.
 
 O maior objetivo dessa regra é aderir o Single Responsibility Principle e High Cohesion.
+
+[Anterior](/role-03.md) | [Próximo](/role-05.md)
