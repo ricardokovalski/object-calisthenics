@@ -35,3 +35,5 @@ protected function indexAction()
     return $this->render('home/access_denied.html.twig');
 }
 ```
+
+[Anterior](/role-01.md) | [Próximo](/role-03.md)
