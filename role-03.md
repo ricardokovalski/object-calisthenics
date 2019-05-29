@@ -52,4 +52,6 @@ class Order
 }
 ```
 
+> **_ATENÇÃO:_** Um possível problema dessa abordagem é que ela adiciona complexidade à base de código. Na tradução dos Object Calisthenics, é colocado que todos os tipos primitivos devem ser envolvidos em classes, porém, sabemos que em PHP isso pode se tornar improdutivo e desnecessário, portanto, analise o quanto aquela entrada ou tipo pode sofrer mudança, se precisa de validação, normalização etc, só aplique-o se tiver uma real justificativa.
+
 [Anterior](/role-02.md) | [Próximo](/role-04.md)
