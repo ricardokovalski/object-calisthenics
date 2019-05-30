@@ -1,6 +1,6 @@
 # Envolva seus tipos primitivos
 
-Essa regra diz que você deve encapsular todos os tipos primitivos (int, float, bool e string) dentro dos objetos, prevenindo assim *Primitive Obsession Anti-Pattern*.
+Essa regra diz que você deve encapsular todos os tipos primitivos (int, float, bool e string) dentro dos objetos, prevenindo assim o *Primitive Obsession Anti-Pattern*.
 
 Essa técnica vêm de uma aplicação do DDD (*Domain-Driven Design*) chamada de Value Object, onde temos um objeto-valor pequeno, que irá cuidar de um tipo de dado específico.
 
