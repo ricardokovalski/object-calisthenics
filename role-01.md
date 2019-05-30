@@ -1,8 +1,8 @@
 # Apenas um nível de identação por método
 
-A ideia principal é que cada método faça apenas uma ação. Desse modo, estamos facilitando a leitura e a manutenção do código. Além de promovermos o Single Responsability Principle e evitarmos o efeito Hadouken.
+A ideia principal é que cada método faça apenas uma ação. Desse modo, estamos facilitando a leitura e a manutenção do código. Além de promovermos o *Single Responsability Principle* e evitarmos o efeito Hadouken.
 
-Você pode extrair comportamentos para outros métodos garantindo um único nível de identação. Fazendo isso, você também está aplicando o Extract Method Pattern.
+Você pode extrair comportamentos para outros métodos garantindo um único nível de indentação. Fazendo isso, você também está aplicando o *Extract Method Pattern*.
 
 ### Antes
 
