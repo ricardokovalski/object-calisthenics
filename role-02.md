@@ -2,9 +2,9 @@
 
 Por quê? Porque não serve para nada. Porque você não precisa e também nunca precisou.
 
-O conceito dessa regra é o early return, que emprega o uso do “retorne seu valor o quanto antes”.
+O conceito dessa regra é o *early return*, que emprega o uso do **retorne seu valor o quanto antes**.
 
-Sempre trabalhe com o return (ou continue), sabendo que ao cair em um return/continue o código abaixo não será executado o que ajuda na remoção do “else” ao inverter ou até modificar a validação antes usada.
+Sempre trabalhe com o *return/continue*, sabendo que ao cair em um *return/continue* o código abaixo não será executado, o que ajuda na remoção do *else* ao inverter ou até modificar a validação antes usada.
 
 ## Primeiro Exemplo
 
