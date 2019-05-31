@@ -1,6 +1,8 @@
 # Object Calisthenics em PHP
 
-O Object Calisthenics é uma série de boas práticas e regras de programação criadas pela comunidade de desenvolvedores Java, contendo apenas 9 regras fáceis que mantém uma boa organização e clareza para a compreensão de um código.
+O Object Calisthenics é uma série de exercícios/boas práticas de programação criadas pelo desenvolvedor Jeff Bay (comunidade Java). É composto por nove regras que mantém uma boa organização e clareza para a compreensão de um código.
+
+Calisthenics do termo grego, Kales, simplificando, seria a forma de se obter um físico ou, no caso, um resultado a partir da prática de exercícios que deixarão seu código em “forma”.
 
 > **_ATENÇÃO:_**  Não se engane, pois algumas regras são bem difíceis e em alguns casos, uma regra depente de outra. Por isso, invista tempo em cada uma das regras e aplique-as com cautela.  
 
