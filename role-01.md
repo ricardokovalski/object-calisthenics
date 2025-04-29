@@ -1,4 +1,4 @@
-# Apenas um nível de identação por método
+# Apenas um nível de indentação por método
 
 A ideia principal é que cada método faça apenas uma ação. Desse modo, estamos facilitando a leitura e a manutenção do código. Além de promovermos o *Single Responsability Principle* e evitarmos o efeito Hadouken.
 
